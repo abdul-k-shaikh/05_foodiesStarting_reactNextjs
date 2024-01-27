@@ -1,4 +1,4 @@
-import MainHeader from '@/components/main-header';
+// import MainHeader from '@/components/main-header';
 import MainHeaderBackground from '@/components/main-header/main-header-background';
 import './globals.css';
 
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <MainHeaderBackground/>
-        <MainHeader/>
+        {/* <MainHeader/> */}
         {children}
       </body>
     </html>
